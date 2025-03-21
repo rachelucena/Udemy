@@ -32,3 +32,7 @@ console.log(alunos);
 
 delete alunos[1]; // vai deletar o valor que ocupa o indice determinado, deixando-o vazio
 console.log(alunos);
+
+console.log(alunos.slice(0, 2)); // fatiar o array
+console.log(alunos.slice(0, -1));
+
