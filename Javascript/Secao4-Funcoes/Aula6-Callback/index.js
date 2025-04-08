@@ -1,5 +1,7 @@
 // Em JavaScript, callback é uma função que é passada como argumento para outra função 
 // e que será executada depois que essa outra função terminar seu processo.
+// Você usa callbacks principalmente para executar uma função depois que outra terminou, 
+// o que é super útil quando algo demora para acontecer
 
 function rand(min = 1000, max = 3000) {
   const num = Math.random() * (max - min) +
