@@ -1,4 +1,4 @@
-const express = require('espress');
+const express = require('express');
 const app = express(); // carregando o express
 
 // CRUD = CREATE, READ, UPDATE, DELETE
